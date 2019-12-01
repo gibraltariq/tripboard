@@ -1,13 +1,20 @@
 import './App.css';
 
+import {Col, Container, Row} from 'react-bootstrap';
+
+import FindLocation from './components/find_location/find_location';
 import React from 'react';
 import logo from './logo.svg';
+
+// import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <input type="text" className="input" placeholder="Search..."/>
+        <FindLocation/>
+
         {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.

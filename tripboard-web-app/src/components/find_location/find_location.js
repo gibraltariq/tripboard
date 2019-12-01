@@ -1,10 +1,8 @@
-import './find_location.css';
-
-import {Col, Container, FormControl, Row} from 'react-bootstrap';
+import {Button, Col, Container, FormControl, Row} from 'react-bootstrap';
 
 import React from 'react';
 
-class FindLocation extends React.Component {
+export default class FindLocation extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -20,7 +18,7 @@ class FindLocation extends React.Component {
     return (
       <Container fluid={true}>
         <Row>
-          <Col>
+          <Col md="11">
             <FormControl
               className="searchBar"
               onChange={(event) => this.onSearchInputChange(event.target.value)}
@@ -28,10 +26,11 @@ class FindLocation extends React.Component {
               size="large"
               type="text"/>
           </Col>
+          <Col md="1">
+            <Button>Go</Button>
+          </Col>
         </Row>
       </Container>
     );
   }
 }
-
-export default FindLocation;

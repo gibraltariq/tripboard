@@ -1,20 +1,17 @@
 import './App.css';
 
-import {Col, Container, Row} from 'react-bootstrap';
+import { Route, Switch } from 'react-router-dom'
 
 import FindLocation from './components/find_location/find_location';
 import React from 'react';
-import logo from './logo.svg';
-
-// import 'bootstrap/dist/css/bootstrap.min.css';
-
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <FindLocation/>
-
+        <Switch>
+          <Route exact path='/' component={FindLocation}/>
+        </Switch>
         {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.

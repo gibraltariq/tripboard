@@ -2,7 +2,7 @@ import {Button, Col, Container, FormControl, Row} from 'react-bootstrap';
 
 import React from 'react';
 
-export default class FindLocation extends React.Component {
+export default class FindActivity extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -18,16 +18,13 @@ export default class FindLocation extends React.Component {
     return (
       <Container fluid={true}>
         <Row>
-          <Col md={11}>
+          <Col>
             <FormControl
               className="searchBar"
               onChange={(event) => this.onSearchInputChange(event.target.value)}
-              placeholder="Where to?"
+              placeholder="Find by search interest or place"
               size="large"
               type="text"/>
-          </Col>
-          <Col md={1}>
-            <Button>Go</Button>
           </Col>
         </Row>
       </Container>

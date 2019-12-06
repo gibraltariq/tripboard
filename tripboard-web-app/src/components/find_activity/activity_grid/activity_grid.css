@@ -1,0 +1,7 @@
+.activityGrid {
+  flex-direction: column;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100wh;
+}

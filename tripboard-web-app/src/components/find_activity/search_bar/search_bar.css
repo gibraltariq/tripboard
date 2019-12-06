@@ -1,0 +1,16 @@
+.searchBar {
+  display: flex;
+  height: 4rem;
+}
+
+.searchButton {
+  border: none;
+  border-radius: 0;
+  flex-shrink: 0;
+}
+
+.searchField {
+  border: none;
+  height: 100%;
+  flex-grow: 1;
+}

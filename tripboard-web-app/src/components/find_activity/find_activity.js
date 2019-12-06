@@ -1,33 +1,28 @@
+import './find_activity.css';
+
 import {Button, Col, Container, FormControl, Row} from 'react-bootstrap';
 
 import React from 'react';
+import SearchBar from './search_bar/search_bar';
 
 export default class FindActivity extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      searchInput: '',
+      searchQuery: '',
     };
   }
 
-  onSearchInputChange(searchInput){
-    this.setState({searchInput});
+  onSearchQueryChange = (query) => {
+    this.setState({searchQuery: query})
   }
 
   render() {
+    console.log(this.state.searchQuery);
     return (
-      <Container fluid={true}>
-        <Row>
-          <Col>
-            <FormControl
-              className="searchBar"
-              onChange={(event) => this.onSearchInputChange(event.target.value)}
-              placeholder="Find by search interest or place"
-              size="large"
-              type="text"/>
-          </Col>
-        </Row>
-      </Container>
+      <div className="page">
+        <SearchBar onSearchQueryChange={this.onSearchQueryChange}/>
+      </div>
     );
   }
 }

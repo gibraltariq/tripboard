@@ -10,7 +10,7 @@ export default class Activity extends React.Component {
   render() {
     return (
       <div className="activity">
-        <p className="title">Sunset View of Alhambra</p>
+        <p className="title">{this.props.data.title}</p>
       </div>
     );
   }

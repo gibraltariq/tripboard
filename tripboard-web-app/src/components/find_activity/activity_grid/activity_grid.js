@@ -9,11 +9,12 @@ export default class ActivityGrid extends React.Component {
   }
 
   render() {
+    const activities = this.props.activities.map((activityData) => {
+      return (<Activity data={activityData}/>);
+    });
     return (
       <div className="activityGrid">
-          <Activity/>
-          <Activity/>
-          <Activity/>
+        {activities}
       </div>
     );
   }

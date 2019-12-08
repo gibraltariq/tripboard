@@ -7,9 +7,21 @@ import React from 'react';
 import SearchBar from './search_bar/search_bar';
 
 const FAKE_ITEMS = [
-  {title: 'Sunset View of Alhambra'},
-  {title: 'Mezquita Mayor'},
-  {title: 'Damashqi'},
+  {
+    title: 'Sunset View of Alhambra',
+    storyteller: {name: 'Danny T', features: ['Muslim', 'Spanish', 'globetrotter']},
+    description: 'If you’re anywhere in or near Grenada, this is just the most phenomenal view you could imagine of a Moorish palace. The sun sets to the left of this palace established by Sultan Yusuf of the Emirate of Granada and lights the walls with a fiery glow, just as the palace lights turn on.'
+  },
+  {
+    title: 'Mezquita Mayor',
+    storyteller: {name: 'Danny T', features: ['Muslim', 'Spanish', 'globetrotter']},
+    description: 'If you’re anywhere in or near Grenada, this is just the most phenomenal view you could imagine of a Moorish palace. The sun sets to the left of this palace established by Sultan Yusuf of the Emirate of Granada and lights the walls with a fiery glow, just as the palace lights turn on.'
+  },
+  {
+    title: 'Damashqi',
+    storyteller: {name: 'Danny T', features: ['Muslim', 'Spanish', 'globetrotter']},
+    description: 'If you’re anywhere in or near Grenada, this is just the most phenomenal view you could imagine of a Moorish palace. The sun sets to the left of this palace established by Sultan Yusuf of the Emirate of Granada and lights the walls with a fiery glow, just as the palace lights turn on.'
+  },
 ];
 
 export default class FindActivity extends React.Component {

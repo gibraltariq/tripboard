@@ -10,7 +10,16 @@ export default class Activity extends React.Component {
   render() {
     return (
       <div className="activity">
-        <p className="title">{this.props.data.title}</p>
+        <img className="glimpse" src={require("../../../assets/alhambra-activitiy.png")}/>
+        <div className="content">
+          <h1 className="title">{this.props.data.title}</h1>
+          <div className="storyteller">
+            <div className="profilePicture"/>
+            <p className="name">{this.props.data.storyteller.name}</p>
+            <p className="features">{this.props.data.storyteller.features.join(', ')}</p>
+          </div>
+          <p className="description">{this.props.data.description}</p>
+        </div>
       </div>
     );
   }

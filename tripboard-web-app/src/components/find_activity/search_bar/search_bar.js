@@ -5,10 +5,6 @@ import {Button, FormControl} from 'react-bootstrap';
 import React from 'react';
 
 export default class SearchBar extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div className="searchBar">

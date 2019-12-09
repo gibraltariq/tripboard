@@ -4,5 +4,6 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  overflow-y: auto;
   width: 100vw;
 }

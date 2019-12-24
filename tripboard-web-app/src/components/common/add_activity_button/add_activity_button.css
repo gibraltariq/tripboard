@@ -1,0 +1,11 @@
+.addActivityButton > .button {
+  background-color: #4692D1;
+  border-radius: 0.5rem;
+  position: absolute;
+  right: 0.5rem;
+  top: 0.5rem;
+}
+
+.addActivityButton > .button:hover {
+  background-color: #135F9E;
+}

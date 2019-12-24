@@ -1,0 +1,33 @@
+.author {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.75rem;
+}
+
+.author > .features {
+  color: #828282;
+  margin-left: 0.5rem;
+  max-width: 15rem;
+}
+
+.author > .name {
+  color: #4F4F4F;
+  margin-left: 0.5rem;
+  max-width: 5rem;
+}
+
+.author > .name, .features {
+  font-size: 0.875rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.author > .profile {
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  object-fit: cover;
+  object-position: center;
+}

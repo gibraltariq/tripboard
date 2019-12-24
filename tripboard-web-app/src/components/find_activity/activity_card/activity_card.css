@@ -1,4 +1,4 @@
-.activity {
+.activityCard {
   align-items: flex-start;
   background-color: #F2F2F2;
   border-radius: 0.5rem;
@@ -29,18 +29,6 @@
   border-radius: 0.5rem 0.5rem 0 0;
   position: relative;
   width: 100%;
-}
-
-.preview > .button {
-  background-color: #4692D1;
-  border-radius: 0.5rem;
-  position: absolute;
-  right: 0.5rem;
-  top: 0.5rem;
-}
-
-.preview > .button:hover {
-  background-color: #135F9E;
 }
 
 .preview > .picture {

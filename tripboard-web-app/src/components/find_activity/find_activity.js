@@ -38,7 +38,7 @@ export default class FindActivity extends React.Component {
 
   render() {
     return (
-      <div className="page">
+      <div className="findActivity">
         <SearchBar onSearchQueryChange={this.onSearchQueryChange}/>
         <ActivityGrid activities={FAKE_ITEMS}/>
         <NextButton

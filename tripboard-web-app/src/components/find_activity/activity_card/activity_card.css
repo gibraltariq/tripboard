@@ -5,7 +5,7 @@
   display: flex;
   flex-direction: column;
   flex: 0 0 0;
-  max-height: 26rem;
+  max-height: 27rem;
   margin: 1rem;
   width: 22rem;
 }
@@ -35,40 +35,6 @@
   border-radius: 0.5rem 0.5rem 0 0;
   object-fit: cover;
   width: 100%;
-}
-
-.storyteller {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  margin-top: 0.75rem;
-}
-
-.storyteller > .features {
-  color: #828282;
-  margin-left: 0.5rem;
-  max-width: 15rem;
-}
-
-.storyteller > .name {
-  color: #4F4F4F;
-  margin-left: 0.5rem;
-  max-width: 5rem;
-}
-
-.storyteller > .name, .features {
-  font-size: 0.875rem;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.storyteller > .profile {
-  border-radius: 50%;
-  width: 2.5rem;
-  height: 2.5rem;
-  object-fit: cover;
-  object-position: center;
 }
 
 .title {

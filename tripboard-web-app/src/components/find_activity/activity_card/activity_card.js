@@ -10,7 +10,7 @@ export default class ActivityCard extends React.Component {
       <div className="activityCard">
         <div className="preview">
           <AddActivtyButton>Add</AddActivtyButton>
-          <img className="picture" src={require("../../../assets/alhambra_activitiy.png")}/>
+          <img className="picture" src={require("../../../assets/alhambra_activity.png")}/>
         </div>
         <div className="content">
           <h1 className="title">{this.props.data.title}</h1>

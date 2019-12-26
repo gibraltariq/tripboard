@@ -1,5 +1,6 @@
 import './activity_card.css';
 
+import ActivityBadge from '../../common/badge/activity_badge';
 import AddActivtyButton from '../../common/add_activity_button/add_activity_button';
 import Author from '../../common/author/author';
 import React from 'react';
@@ -9,6 +10,8 @@ export default class ActivityCard extends React.Component {
     return (
       <div className="activityCard">
         <div className="preview">
+          {this.props.data.duration &&
+            <ActivityBadge>{this.props.data.duration}</ActivityBadge>}
           <AddActivtyButton>Add</AddActivtyButton>
           <img className="picture" src={require("../../../assets/alhambra_activity.png")}/>
         </div>

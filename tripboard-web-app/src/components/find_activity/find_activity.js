@@ -9,7 +9,8 @@ const FAKE_ITEMS = [
   {
     title: 'Sunset View of Alhambra',
     storyteller: {name: 'Danny T', features: ['Muslim', 'Spanish', 'globetrotter']},
-    description: 'If you’re anywhere in or near Grenada, this is just the most phenomenal view you could imagine of a Moorish palace. The sun sets to the left of this palace established by Sultan Yusuf of the Emirate of Granada and lights the walls with a fiery glow, just as the palace lights turn on.'
+    description: 'If you’re anywhere in or near Grenada, this is just the most phenomenal view you could imagine of a Moorish palace. The sun sets to the left of this palace established by Sultan Yusuf of the Emirate of Granada and lights the walls with a fiery glow, just as the palace lights turn on.',
+    duration: '1 hour',
   },
   {
     title: 'Mezquita Mayor',

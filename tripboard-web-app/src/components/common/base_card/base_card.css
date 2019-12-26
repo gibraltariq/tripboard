@@ -1,0 +1,16 @@
+.baseCard {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  flex: 0 0;
+  width: 100%;
+}
+
+.baseCard > .details {
+  background-color: #F2F2F2;
+  border-radius: 0.5rem;
+  color: #4F4F4F;
+  font-size: 1rem;
+  padding: 0.625rem;
+  width: 100%;
+}

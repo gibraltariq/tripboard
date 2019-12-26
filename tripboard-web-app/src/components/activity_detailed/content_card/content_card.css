@@ -7,16 +7,7 @@
   width: 100%;
 }
 
-.contentCardDetails {
-  background-color: #F2F2F2;
-  border-radius: 0.5rem;
-  color: #4F4F4F;
-  font-size: 1rem;
-  padding: 0.625rem;
-  width: 100%;
-}
-
-.contentCardTitle {
+.contentCard > .title {
   color: black;
   font-size: 1rem;
   font-weight: bold;

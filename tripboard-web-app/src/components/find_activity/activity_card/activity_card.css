@@ -10,9 +10,15 @@
   width: 22rem;
 }
 
-.content {
+.activityCard > .content {
   padding: 1rem;
   width: 100%;
+}
+
+.activityCard > .content > .title {
+  color: #333333;
+  font-size: 1.25rem;
+  font-weight: bold;
 }
 
 .description {
@@ -41,10 +47,4 @@
   border-radius: 0.5rem 0.5rem 0 0;
   object-fit: cover;
   width: 100%;
-}
-
-.title {
-  color: #333333;
-  font-size: 1.25rem;
-  font-weight: bold;
 }

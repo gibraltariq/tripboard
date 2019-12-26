@@ -1,28 +1,10 @@
 import './find_activity.css';
 
 import ActivityGrid from './activity_grid/activity_grid'
+import {FAKE_ITEMS} from '../../assets/fake_store';
 import NextButton from './next_button/next_button';
 import React from 'react';
 import SearchBar from './search_bar/search_bar';
-
-const FAKE_ITEMS = [
-  {
-    title: 'Sunset View of Alhambra',
-    storyteller: {name: 'Danny T', features: ['Muslim', 'Spanish', 'globetrotter']},
-    description: 'If you’re anywhere in or near Grenada, this is just the most phenomenal view you could imagine of a Moorish palace. The sun sets to the left of this palace established by Sultan Yusuf of the Emirate of Granada and lights the walls with a fiery glow, just as the palace lights turn on.',
-    duration: '1 hour',
-  },
-  {
-    title: 'Mezquita Mayor',
-    storyteller: {name: 'Danny T', features: ['Muslim', 'Spanish', 'globetrotter']},
-    description: 'If you’re anywhere in or near Grenada, this is just the most phenomenal view you could imagine of a Moorish palace. The sun sets to the left of this palace established by Sultan Yusuf of the Emirate of Granada and lights the walls with a fiery glow, just as the palace lights turn on.'
-  },
-  {
-    title: 'Damashqi',
-    storyteller: {name: 'Danny T', features: ['Muslim', 'Spanish', 'globetrotter']},
-    description: 'If you’re anywhere in or near Grenada, this is just the most phenomenal view you could imagine of a Moorish palace. The sun sets to the left of this palace established by Sultan Yusuf of the Emirate of Granada and lights the walls with a fiery glow, just as the palace lights turn on.'
-  },
-];
 
 export default class FindActivity extends React.Component {
   constructor(props) {

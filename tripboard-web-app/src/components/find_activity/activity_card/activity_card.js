@@ -18,8 +18,8 @@ export default class ActivityCard extends React.Component {
         <div className="content">
           <h1 className="title">{this.props.data.title}</h1>
           <Author
-            features={this.props.data.storyteller.features}
-            name={this.props.data.storyteller.name}
+            features={this.props.data.author.features}
+            name={this.props.data.author.name}
           />
           <p className="description">{this.props.data.description}</p>
         </div>

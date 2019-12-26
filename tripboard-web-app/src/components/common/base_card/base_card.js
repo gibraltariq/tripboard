@@ -1,4 +1,4 @@
-import './base_card.css';
+import './base_card.scss';
 
 import React from 'react';
 

@@ -1,4 +1,4 @@
-import './next_button.css';
+import './next_button.scss';
 
 import React from 'react';
 

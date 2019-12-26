@@ -1,4 +1,4 @@
-import './activity_grid.css';
+import './activity_grid.scss';
 
 import ActivityCard from '../activity_card/activity_card';
 import React from 'react';

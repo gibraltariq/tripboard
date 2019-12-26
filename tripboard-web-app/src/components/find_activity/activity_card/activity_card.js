@@ -1,4 +1,4 @@
-import './activity_card.css';
+import './activity_card.scss';
 
 import ActivityBadge from '../../common/badge/activity_badge';
 import AddActivtyButton from '../../common/add_activity_button/add_activity_button';

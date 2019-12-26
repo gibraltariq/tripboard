@@ -1,4 +1,4 @@
-import './author.css';
+import './author.scss';
 
 import React from 'react';
 

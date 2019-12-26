@@ -1,4 +1,4 @@
-import './search_bar.css';
+import './search_bar.scss';
 
 import {Button, FormControl} from 'react-bootstrap';
 

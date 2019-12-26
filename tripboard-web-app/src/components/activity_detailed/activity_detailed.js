@@ -1,4 +1,4 @@
-import './activity_detailed.css';
+import './activity_detailed.scss';
 
 import AddActivityButton from '../common/add_activity_button/add_activity_button';
 import Author from '../common/author/author';

@@ -1,4 +1,4 @@
-import './activity_badge.css';
+import './activity_badge.scss';
 
 import React from 'react';
 

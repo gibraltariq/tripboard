@@ -1,4 +1,4 @@
-import './find_activity.css';
+import './find_activity.scss';
 
 import ActivityGrid from './activity_grid/activity_grid'
 import {FAKE_ITEMS} from '../../assets/fake_store';

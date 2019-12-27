@@ -1,0 +1,17 @@
+.sideIconCard {
+  display: flex;
+  flex-direction: row;
+  padding: 0.625rem;
+
+  .icon {
+    max-width: 1.625rem;
+    object-fit: contain;
+    object-position: center;
+  }
+
+  .text {
+    color: #4F4F4F;
+    font-size: 1rem;
+    margin-left: 1rem;
+  }
+}

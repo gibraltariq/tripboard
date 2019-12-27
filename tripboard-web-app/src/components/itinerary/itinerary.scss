@@ -2,5 +2,11 @@
   display: flex;
   flex-direction: column;
   height: 100vh;
+  padding: 0.625rem;
   width: 100vw;
+
+  .sectionHeader {
+    color: #4F4F4F;
+    font-size: 1.25rem
+  }
 }

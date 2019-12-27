@@ -13,7 +13,7 @@ export default class ActivityCard extends React.Component {
           {this.props.data.duration &&
             <ActivityBadge>{this.props.data.duration}</ActivityBadge>}
           <AddActivtyButton>Add</AddActivtyButton>
-          <img className="picture" src={require("../../../assets/alhambra_activity.png")}/>
+          <img className="picture" src={require("../../../assets/images/alhambra_activity.png")}/>
         </div>
         <div className="content">
           <h1 className="title">{this.props.data.title}</h1>

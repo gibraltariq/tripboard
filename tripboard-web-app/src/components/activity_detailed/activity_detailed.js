@@ -14,7 +14,7 @@ export default class ActivityDetailed extends React.Component {
       <div className="activityDetailed">
         <div className="activityDetailedPreview">
           <AddActivityButton>Add to trip</AddActivityButton>
-          <img className="activityDetailedPicture" src={require("../../assets/alhambra_activity.png")}/>
+          <img className="activityDetailedPicture" src={require("../../assets/images/alhambra_activity.png")}/>
         </div>
         <div className="activityDetailedContent">
           <h1 className="activityDetailedTitle">{FAKE_ACTIVITY.title}</h1>
